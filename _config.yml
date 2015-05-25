@@ -4,9 +4,9 @@ email: felixlaumon@gmail.com
 description: >
   BinaryAbacus.io is a data visualization blog devoted to telling stories in Asia with hard numbers and interactive charts.
 baseurl: ""
-url: "http://www.binaryabacus.io" # the base hostname & protocol for your site
-twitter_username: phelixlau
-github_username:  felixlaumon
+url: "http://www.binaryabacus.io"
+permalink: none
+comments: true
 
 paginate: 1
 
