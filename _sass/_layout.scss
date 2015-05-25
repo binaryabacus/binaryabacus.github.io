@@ -50,28 +50,6 @@
     padding: $spacing-unit 0;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size * 0.8;
-    font-family: $title-font-family;
-    text-transform: uppercase;
-    color: $grey-color;
-    margin-bottom: 0;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
 
 
 /**
@@ -94,7 +72,7 @@
 
 .post-title {
     font-family: $title-font-family;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.8rem;
 
@@ -113,6 +91,28 @@
     font-weight: 500;
     line-height: 1.2rem;
     color: $grey-color;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size * 0.8;
+    font-family: $title-font-family;
+    text-transform: uppercase;
+    color: $grey-color;
+    margin-bottom: 0;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
 }
 
 .post-content {
