@@ -12,7 +12,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 1.2rem;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -29,6 +29,7 @@
 
 .site-tagline {
     font-size: $small-font-size;
+    line-height: 1.3rem;
 }
 
 
@@ -60,6 +61,8 @@
 
 .post-meta {
     font-size: $small-font-size * 0.8;
+    font-family: $title-font-family;
+    text-transform: uppercase;
     color: $grey-color;
     margin-bottom: 0;
 }
@@ -92,8 +95,8 @@
 .post-title {
     font-family: $title-font-family;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 3.7rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
 
     a {
       color: $text-color;
@@ -108,7 +111,7 @@
     font-family: $title-font-family;
     font-size: $small-font-size;
     font-weight: 500;
-    line-height: 2.6rem;
+    line-height: 1.2rem;
     color: $grey-color;
 }
 
@@ -141,14 +144,15 @@
 }
 
 .reference {
-    margin: 0 -25px;
+    margin: 30px -25px;
     @include media-query($on-laptop) {
-        margin: 0;
+        margin: 15px 0;
     }
     padding: 15px 25px;
     background: lighten($grey-color-light, 3%);
     font-family: $title-font-family;
     font-size: $small-font-size* 0.8;
+    word-wrap: break-word;
 
     p {
         margin-bottom: 5px;
@@ -190,4 +194,8 @@
 .pagination {
     font-family: $title-font-family;
     font-size: $small-font-size;
+
+    .disabled {
+        color: $grey-color;
+    }
 }
